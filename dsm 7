@@ -1,0 +1,27 @@
+Import nивру из пр It matplotlib.pyplot as alt Inpurt pandas Ingurt sklearn
+
+fros sklearn model selection inport train test split from sklearn.metrics import mean squared ernor, 2 score from skleare Isport linear model fros skleare datasets Inport load iris
+
+xy-load iris(return_X_y-True)
+
+
+
+xalatest,y train,y test-train test split(x,y,test size 20, random state-2)
+
+
+
+
+] x train-np.array(strain).reshape(-1,1) ytrain-np.array(y train).reshape(-1,1) test-np.array(x_test).reshape(-1,1)
+
+
+
+classifier-linear model.Lineerftegression() classifier, fit(x_train,y train) 7_pred-classifier.predict(x test)
+
+
+
+nean squared error(y test,y pred)
+
+
+
+
+plt.scatters testy test,color "black" plt.plot(x_tasty pred, color lus) pit.show()
